@@ -8,6 +8,14 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
+// Notes
+// - parse to string - int.toString()
+// - parse to integer - parseInt(str)
+// - get the number sign - Math.sign(int)
+
+// Solution 1
+// Turn into string and reverse it and multiply it by the sign of n
+
 function reverseInt(n) {}
 
-module.exports = reverseInt;
+module.exports = reverseInt
