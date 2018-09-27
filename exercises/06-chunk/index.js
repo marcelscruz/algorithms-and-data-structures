@@ -23,16 +23,6 @@
 // While index < array.length, push a slice of length 'size' from 'array' to 'chunked'
 // and add 'size' to 'index'
 
-function chunk(array, size) {
-  const chunked = []
-  let index = 0
-
-  while (index < array.length) {
-    chunked.push(array.slice(index, index + size))
-    index += size
-  }
-
-  return chunked
-}
+function chunk(array, size) {}
 
 module.exports = chunk
