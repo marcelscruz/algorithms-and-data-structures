@@ -35,6 +35,7 @@
 // If (row === n) then we have hit the end of our problem
 // If the 'stair' string has a length === n then we are at the end of a row
 // If the length of the 'stair' string is less than or equal to the row number we're working on, we add a '#', otherwise add a space
+// -----------
 // Instructions
 // Add 'row' as second function parameter with default value = 0
 // Add 'stair' as third function parameter with default value = ''
