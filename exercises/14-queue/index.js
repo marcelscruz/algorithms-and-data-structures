@@ -13,18 +13,6 @@
 // Create add method to add to the beginning of the array
 // Create remove method to remove from the beginning of the array
 
-class Queue {
-  constructor() {
-    this.data = []
-  }
-
-  add(record) {
-    this.data.unshift(record)
-  }
-
-  remove() {
-    return this.data.pop()
-  }
-}
+class Queue {}
 
 module.exports = Queue

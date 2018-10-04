@@ -22,8 +22,15 @@
 //    q.remove() // 2
 //    q.remove() // 'There'
 
-const Queue = require('./queue');
+// Solution 1
+// Instatiate a new queue
+// While sourceOne OR sourceTwo still have elements in it
+// - if sourceOne has elements left, add its last element to the start of new queue
+// - if sourceTwo has elements left, add its last element to the start of new queue
+// Return new queue
+
+const Queue = require('./queue')
 
 function weave(sourceOne, sourceTwo) {}
 
-module.exports = weave;
+module.exports = weave
